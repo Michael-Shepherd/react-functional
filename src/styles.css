@@ -1,3 +1,5 @@
+@import '../node_modules/mini.css/dist/mini-default.min.css';
+
 .square {
     width: 100px;
     height: 100px;
@@ -11,4 +13,8 @@
 
 .board {
     margin: 10px;
+}
+
+form {
+    min-width: 300px;
 }
