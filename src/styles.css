@@ -18,3 +18,9 @@
 form {
     min-width: 300px;
 }
+
+.error-block {
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 10px;
+}
