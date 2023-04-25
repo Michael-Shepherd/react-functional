@@ -4,11 +4,11 @@
     width: 100px;
     height: 100px;
     font-size: 50px;
-    background-color: rgb(200,200,200);
+    background-color: rgb(200, 200, 200);
 }
 
 .square:hover {
-    background-color: rgb(240,240,240);
+    background-color: rgb(240, 240, 240);
 }
 
 .board {
@@ -23,4 +23,18 @@ form {
     border: 1px solid red;
     background-color: rgba(255, 0, 0, 0.2);
     border-radius: 10px;
+}
+
+.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 5.1875rem;
+}
+
+a.button.active {
+    border: 1px solid var(--fore-color);
 }
